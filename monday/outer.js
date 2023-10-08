@@ -1,0 +1,10 @@
+const sayHello = require("./layer1");
+const printInfo = require("./layer2");
+const data = require("./layer2/data");
+const printCompareInfo = require("./layer3");
+sayHello();
+console.log("-------------");
+console.log("This is the list of Users:");
+printInfo();
+console.log("-------------");
+printCompareInfo();
